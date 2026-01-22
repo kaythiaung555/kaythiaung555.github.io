@@ -8,7 +8,62 @@
 <body>
     <h1>Function Lessons</h1>
     <script>
+        // nameing function
+        function hello(){
+
+            document.write(`Hello World!<br>`);
+        }
+        hello();
+
+        // argument function
+        function sum(num1,num2){
+            let result = num1 + num2;
+            document.write(`Result is ${result} <br>`);
+        }
+        sum(3,5);
+        sum(235444,7987);
+        sum(478,56);
+
+        // default function
+        function mult(num1=100, num2=50){
+            let result = num1 * num2;
+            document.write(`The Mult Result2 is ${result} <br>`);
+        }
+        mult(2,5);
+
+        // return function
+        function result(num1, num2){
+            let result = num1 - num2;
+            return result;
+        }
+
+        let subresult = result(4566144,78994);
+        document.write(subresult);
+
+        // object
+        let hotel = {
+            name : 'KTA Hotel',
+            rooms : 100,
+            booking : 90,
+            gym : true,
+            pool : true,
+            roomtype : ['Twin','Double','Suite','Family','Luxury'],
+            checkavailability : function(){
+                let result = this.rooms - this.booking;
+                return result;
+            }
+        }
         
+        console.log(hotel);
+        console.log(hotel.name);
+        console.log(hotel.gym);
+        console.log(hotel.roomtype[3]);
+
+        let roomfree = hotel.checkavailability();
+        console.log(roomfree);
+
+        hotel.name = 'Grace Hotel';
+        console.log(hotel);
     </script>
 </body>
 </html>
