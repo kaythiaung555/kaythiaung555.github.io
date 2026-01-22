@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessgame</title>
+</head>
+<body>
+    <script>
+
+        let secretno = 7;
+        let guessno = prompt('Enter a Number between 1 to 20!');
+
+        while(secretno != guessno) {
+        
+            if (guessno < secretno) {
+                alert('Your Number is lower, Please Try Again!');
+            }else{
+                alert('Your Number is higher, Please Try Again!');
+            }
+
+            guessno = prompt('Enter a Number between 1 to 20!');
+
+        }
+
+        
+                document.write(`Wow, Secrect Number is Correct, You try ${guessno}`);
+        
+        
+    </script>
+</body>
+</html>

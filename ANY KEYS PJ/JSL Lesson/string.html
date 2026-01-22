@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String</title>
+</head>
+<body>
+    <h1>String Lessons</h1>
+    <script>
+        let firstname = "Developer";
+        let lastname = "kay Thi Aung";
+        console.log(firstname.length);
+
+        console.log(firstname);
+        console.log(lastname);
+        // let fullname = firstname + " " + lastname;
+        let fullname = firstname.concat(' ',lastname);
+        console.log(fullname);
+
+        console.log('My name is ' + fullname);
+
+        document.write('<h1>' + firstname + '</h1>' + '<h2>' + lastname + '<h2>');
+        document.write(`<h1> ${firstname} </h1> <h2> ${lastname} <h2>`);
+
+        document.write(`<h3> My name is ${fullname} . I am 27 years old. My nick name is ${lastname}</h3>`);
+        document.write('<h3>' + 'My name is' + fullname + 'I am 27 years old. My nick name is ' + lastname + '</h3>' );
+
+        console.log(firstname.toUpperCase());
+        console.log(firstname.toLowerCase());
+        console.log(firstname.substr(2,4));
+
+        let job = '      web          developer.       ';
+        console.log(job.trim());
+
+        let ser = 'Javascript is Funny!';
+        console.log(ser.search('is'));
+
+        let rep = "I Want to Visit Yangon";
+        console.log(rep.replace('Yangon', 'Mandalay'));
+
+        console.log('I\'m Kay Thi Aung');
+        console.log("I'm Kay Thi Aung");
+        console.log("I'm Kay Thi Aung, 5' 1\"");
+        console.log(`I'm Kay Thi Aung, 5' 1"`);
+
+        let num = '3-500-000';
+        console.log(num.replace(/\-/g, ','));
+
+        
+    </script>
+</body>
+</html>

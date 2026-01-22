@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Start Navgation */
+.logo{
+    width: 205px;
+    height: 105px;
+    margin-left: 80px;
+    margin-top: 3px;
+}
+
+.navbar{
+    float: right;
+}
+
+.navbar li{
+    display: inline-block;
+    margin-top: 40px;
+    margin-right: 50px;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.book_now{
+    background-color: #224980;
+    border-radius: 8px;
+    padding: 15px 25px; 
+    color: white !important;
+    border: 1px solid #224980;
+}
+
+.book_now:hover{
+    background-color: white;
+    color: #224980 !important;
+    border: 1px solid #224980;
+}
+
+.nav_item:hover{
+    color: #224980;
+    transform: translateY(-5px);
+    display: inline-block;
+    transition-duration: 0.5s;
+}
+
+.nav{
+    box-shadow: 15px 10px 30px rgb(0,0, 0, 0.08);
+}
+
+/* Start bunner */
+.bunner_image{
+    width: 100%;
+}
+
+.bunner{
+    position: relative;
+}
+
+.bunner_text{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.bunner_text h1{
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.bunner_text input{
+    padding: 12px 20px;
+    outline: none;
+    border: 1px solid #224980;
+    border-radius: 8px 0 0 8px;
+}
+
+.bunner_text button{
+    border: 1px solid #224980;
+    background-color: #224980;
+    border-radius: 0 8px 8px 0;
+    padding: 12px 20px;
+    color: white;
+}
+
+.bunner_text button:hover{
+    background-color: white;
+    color: #224980;
+}
+
+.Popular{
+    text-align: center;
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+/* End bunner */
+
+.girdone{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+.girdone:hover{
+    transform: translateY(-10px);
+    transition-duration: 0.3s;
+}
+
+.girdone div img{
+    width: 350px;
+    border-radius: 20px 20px 0 0;
+}
+
+.girdtwo{
+    width: 350px;
+    height: 50px;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 0 0 20px 20px;
+}

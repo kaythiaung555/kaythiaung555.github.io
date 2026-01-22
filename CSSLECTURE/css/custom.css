@@ -58,3 +58,9 @@ a:active{
 a:visited{
     color: brown;
 }
+
+/* Target */
+:target{
+    color: blue;
+}
+
