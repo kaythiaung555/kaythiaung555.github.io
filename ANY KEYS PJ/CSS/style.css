@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* start Navigation */
+.logo{
+    width: 90px;
+    height: 90px;
+    margin-top: 10px;
+    margin-left: 100px;
+    border: 2px solid #0b468c;
+    border-radius: 15px;
+}
+
+.title{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.input{
+    /* float: right; */
+    margin-top: 30px;
+    /* margin-right: 500px; */
+    
+}
+
+.inputone{
+        width: 300px;
+        height: 35px;
+        outline: none;
+        border-radius: 15px;
+        border: 2px solid #0b468c;
+}
+.inputtwo{
+    width: 80px;
+    height: 36px;
+    outline: none;
+    border-radius: 15px;
+    border: 2px solid #0b468c;
+}
+.inputone:hover,.inputtwo:hover{
+    background-color: #0b468c;
+    color: white;
+}
+
+.icon{
+    margin-right: 200px;
+}
+
+.icon li{
+    display: inline-block;
+    float: right;
+    margin-top: 35px;
+    padding: 10px;
+}
+
+.home{
+    text-align: center;
+    background-color: #0b468c;
+}
+.home li{
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.homeitem{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+.homeitem:hover{
+    transform: translateY(-5px);
+    transition-duration: 0.05s;
+    display: inline-block;
+    color: black;
+}
+.homeitem:active{
+    color: blueviolet;
+}
+
+.nav{
+    box-shadow: 15px 10px 30px rgb(0,0, 0, 0.08);
+}
+/* end navigation */
+
+.bunner{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.bunnerimg{
+    width: 700px;
+    height: 400px;
+    margin-top: 10px;
+    border-radius: 15px;
+    
+}
+.bunnerimg:hover{
+    transform: scale(1.03);
+    transition-duration: 0.05s;
+    box-shadow: 15px 10px 30px rgb(0,0, 0, 0.2);
+}
+.bunnervideo{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 20px;
+    margin-left: 8%;
+    margin-right: 8%;
+    background-color: #0b468c;
+    border-radius: 15px;
+}
+.video{
+    width: 400px;
+    height: 400px;
+    border-radius: 15px;
+}
+.video:hover{
+    box-shadow: 20px 10px 20px rgba(71, 71, 71, 0.2);
+}
+
+.newtitle{
+    margin-top: 20px;
+    background-color: #0b468c;
+    width: 300px;
+    border-radius: 5px;
+    text-align: center;
+    color: aliceblue;
+    margin-left: 8%;
+}
+.new{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 5px;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.newimg{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+.newimg:hover{
+    transform: scale(1.04);
+    transition-duration: 0.05s;
+    box-shadow: 18px 10px 50px rgb(0,0, 0, 0.10);
+}
+.brandname{
+    font-size: 25px;
+}
+.price{
+    font-size: 25px;
+    margin-top: 10px;
+    color: red;
+}
+.newbutton{
+    margin-left: 175px;
+    width: 120px;
+    height: 30px;
+    border-radius: 10px 10px;
+    border: 2px solid red;
+    margin-bottom: 20px;
+}
+.newbutton:hover{
+    color: white;
+    background-color: #0b468c;
+}
+
+.special{
+    margin-top: 20px;
+    margin-left: 8%;
+    background-color: #0b468c;
+    width: 300px;
+    border-radius: 5px;
+    text-align: center;
+    color: aliceblue;
+    margin-left: 8%;
+}
+.Brandcollect{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    margin-left: 120px;
+    margin-right: 30px;
+    margin-top: 5px;
+}
+.brandphoto{
+    width: 100px;
+    height: 90px;
+}
+.brandphoto:hover{
+    transform: scale(1.05);
+    transition-duration: 0.05s;
+    box-shadow: 18px 10px 70px rgb(0,0, 0, 0.20);
+}
+
+/* start footer */
+.footer{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin-top: 50px;
+    margin-left: 600px;
+    margin-right: 600px;
+    font-size: 40px;
+}
+.link:hover{
+    transform: scale(1.09);
+    transition-duration: 0.05s;
+    box-shadow: 18px 10px 90px rgb(0,0, 0, 0.03);
+}
+.join{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.copy{
+    text-align: center;
+    background-color: #0b468c;
+    margin-top: 50px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+/* dropdown */
+.mainlist{
+    position: relative;
+}
+.list{
+    display: none;
+    position: absolute;
+    list-style: none;
+    z-index: 1000;
+    min-width: 240;
+}
+#product:hover.list{
+    display: block;
+}
+
